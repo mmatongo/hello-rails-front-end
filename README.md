@@ -6,6 +6,10 @@
 
 ![screenshot](scr/screenshot.png)
 
+## Link to BackEnd PR
+
+[HERE](https://github.com/mmatongo/hello-rails-back-end/pull/4)
+
 ## Built With
 
 - React & Redux
