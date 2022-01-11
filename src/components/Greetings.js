@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchRandomGreeting } from "../redux/greetings/main";
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchRandomGreeting } from '../redux/greetings/main';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const greeting = useSelector(state => state.greetings.greeting);
+  const greeting = useSelector((state) => state.greetings.greeting);
 
   useEffect(() => {
     dispatch(fetchRandomGreeting());
-    }, [dispatch]);
+  }, [dispatch]);
 
   return (
     <div>
